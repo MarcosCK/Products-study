@@ -1,4 +1,4 @@
-package ApiJwt.apiproducts.model.entity.User;
+package ApiJwt.apiproducts.model.entity.user;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -42,7 +42,7 @@ public class User implements UserDetails {
 
     @Override
     public String getUsername() {
-        return null;
+        return login;
     }
 
     @Override

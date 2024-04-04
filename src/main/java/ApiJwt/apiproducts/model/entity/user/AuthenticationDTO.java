@@ -1,4 +1,4 @@
-package ApiJwt.apiproducts.model.entity.User;
+package ApiJwt.apiproducts.model.entity.user;
 
 public record AuthenticationDTO(
         String login,

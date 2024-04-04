@@ -1,4 +1,4 @@
-package ApiJwt.apiproducts.model.entity.User;
+package ApiJwt.apiproducts.model.entity.user;
 
 public enum UserRole {
 
